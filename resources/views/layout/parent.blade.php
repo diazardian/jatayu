@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="/">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li class="has-dropdown">
                             <a href="services.html">Services</a>
@@ -107,9 +107,9 @@
                 <div class="col-md-12 col-md-offset-0 text-left">
                     <div class="display-t">
                         <div class="display-tc">
-                            <h1 class="animate-box" data-animate-effect="fadeInUp">Your Business To The Next Level</h1>
-                            <h2 class="animate-box" data-animate-effect="fadeInUp">Free HTML5 Bootstrap Templates Made <em>by</em> <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a></h2>
-                            <p class="animate-box" data-animate-effect="fadeInUp"><a href="#" class="btn btn-white btn-lg btn-outline">Get In Touch</a></p>
+                            <h1 class="animate-box" data-animate-effect="fadeInUp">JATAYU</h1>
+                            <h2 class="animate-box" data-animate-effect="fadeInUp">Your Best IT Partner </a></h2>
+                            {{--<p class="animate-box" data-animate-effect="fadeInUp"><a href="#" class="btn btn-white btn-lg btn-outline">Get In Touch</a></p>--}}
                         </div>
                     </div>
                 </div>
