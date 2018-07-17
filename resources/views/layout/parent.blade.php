@@ -57,18 +57,8 @@
     <nav class="gtco-nav" role="navigation">
         <div class="gtco-container">
             <div class="row">
-                <div class="col-md-12 text-right gtco-contact">
-                    <ul class="">
-                        <li><a href="#"><i class="ti-mobile"></i> +1 (0)123 456 7890 </a></li>
-                        <li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
-                        <li><a href="#"><i class="icon-mail2"></i></a></li>
-                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="/"></a></div>
+                    <div id="gtco-logo"><a href="index.html"><img src="{{asset('gambar/logologo.png')}}" alt="Italian Trulli"></a></div>
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
@@ -100,7 +90,7 @@
 
         </div>
     </nav>
-    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+    <header id="gtco-header" class="gtco-cover" role="banner" style="background-image: url({{asset('gambar/img_1.jpg')}});">
         <div class="overlay"></div>
         <div class="gtco-container">
             <div class="row">
@@ -109,7 +99,6 @@
                         <div class="display-tc">
                             <h1 class="animate-box" data-animate-effect="fadeInUp">JATAYU</h1>
                             <h2 class="animate-box" data-animate-effect="fadeInUp">Your Best IT Partner </h2>
-                            {{--<p class="animate-box" data-animate-effect="fadeInUp"><a href="#" class="btn btn-white btn-lg btn-outline">Get In Touch</a></p>--}}
                         </div>
                     </div>
                 </div>
@@ -117,49 +106,11 @@
         </div>
     </header>
 
-    <div id="gtco-features-3">
-        <div class="gtco-container">
-            <div class="gtco-flex">
-                <div class="feature feature-1 animate-box" data-animate-effect="fadeInUp">
-                    <div class="feature-inner">
-						<span class="icon">
-							<i class="ti-search"></i>
-						</span>
-                        <h3>Search</h3>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
-                        <p><a href="#" class="btn btn-white btn-outline">Learn More</a></p>
-                    </div>
-                </div>
-                <div class="feature feature-2 animate-box" data-animate-effect="fadeInUp">
-                    <div class="feature-inner">
-						<span class="icon">
-							<i class="ti-announcement"></i>
-						</span>
-                        <h3>Announcdement</h3>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
-                        <p><a href="#" class="btn btn-white btn-outline">Learn More</a></p>
-                    </div>
-                </div>
-                <div class="feature feature-3 animate-box" data-animate-effect="fadeInUp">
-                    <div class="feature-inner">
-						<span class="icon">
-							<i class="ti-timer"></i>
-						</span>
-                        <h3>Timer</h3>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
-                        <p><a href="#" class="btn btn-white btn-outline">Learn More</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div id="gtco-features">
         <div class="gtco-container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                    <h2>Aesthetic Features</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    <h2>Our Culture</h2>
                 </div>
             </div>
             <div class="row">
@@ -168,8 +119,8 @@
 						<span class="icon">
 							<i class="ti-vector"></i>
 						</span>
-                        <h3>Pixel Perfect</h3>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
+                        <h3>Smart</h3>
+                        <p>We must think twice do once, work smart efficiently. </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -177,8 +128,8 @@
 						<span class="icon">
 							<i class="ti-tablet"></i>
 						</span>
-                        <h3>Fully Responsive</h3>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
+                        <h3>Humble</h3>
+                        <p>Cheerful and humble with the others. Caring and take care. </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -186,8 +137,8 @@
 						<span class="icon">
 							<i class="ti-settings"></i>
 						</span>
-                        <h3>Web Development</h3>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
+                        <h3>Speed</h3>
+                        <p>Fast response in any situational circumstances, service above all. </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -195,145 +146,15 @@
 						<span class="icon">
 							<i class="ti-ruler-pencil"></i>
 						</span>
-                        <h3>Web Design</h3>
-                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
+                        <h3>Passion</h3>
+                        <p>We all passions in our work, passion made perfect. </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="gtco-portfolio" class="gtco-section">
-        <div class="gtco-container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                    <h2>Our Latest Works</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                </div>
-            </div>
-
-            <div class="row row-pb-md">
-                <div class="col-md-12">
-                    <ul id="gtco-portfolio-list">
-                        <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); ">
-                            <a href="#" class="color-1">
-                                <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>View the Earth from the Outer Space</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
-                            <a href="#" class="color-2">
-                                <div class="case-studies-summary">
-                                    <span>Illustration</span>
-                                    <h2>Sleeping in the Cold Blue Water</h2>
-                                </div>
-                            </a>
-                        </li>
-
-
-                        <li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
-                            <a href="#" class="color-3">
-                                <div class="case-studies-summary">
-                                    <span>Illustration</span>
-                                    <h2>Building Builded by Man</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
-                            <a href="#" class="color-4">
-                                <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>The Peaceful Place On Earth</h2>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); ">
-                            <a href="#" class="color-5">
-                                <div class="case-studies-summary">
-                                    <span>Web Design</span>
-                                    <h2>I'm Getting Married</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); ">
-                            <a href="#" class="color-6">
-                                <div class="case-studies-summary">
-                                    <span>Illustration</span>
-                                    <h2>Beautiful Flowers In The Air</h2>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center animate-box">
-                    <a href="#" class="btn btn-white btn-outline btn-lg btn-block">See All Our Works</a>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div id="gtco-counter" class="gtco-section">
-        <div class="gtco-container">
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                    <h2>Fun Facts</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="feature-center">
-						<span class="icon">
-							<i class="ti-settings"></i>
-						</span>
-                        <span class="counter js-counter" data-from="0" data-to="22070" data-speed="5000" data-refresh-interval="50">1</span>
-                        <span class="counter-label">Creativity Fuel</span>
-
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="feature-center">
-						<span class="icon">
-							<i class="ti-face-smile"></i>
-						</span>
-                        <span class="counter js-counter" data-from="0" data-to="97" data-speed="5000" data-refresh-interval="50">1</span>
-                        <span class="counter-label">Happy Clients</span>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="feature-center">
-						<span class="icon">
-							<i class="ti-briefcase"></i>
-						</span>
-                        <span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-                        <span class="counter-label">Projects Done</span>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="feature-center">
-						<span class="icon">
-							<i class="ti-time"></i>
-						</span>
-                        <span class="counter js-counter" data-from="0" data-to="212023" data-speed="5000" data-refresh-interval="50">1</span>
-                        <span class="counter-label">Hours Spent</span>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    
 
     <div id="gtco-products">
         <div class="gtco-container">
