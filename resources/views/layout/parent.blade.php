@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jatayu &mdash; Your best IT partner</title>
+    <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
     <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -58,12 +58,12 @@
         <div class="gtco-container">
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <div id="gtco-logo"><a href="index.html"><img src="{{asset('gambar/logologo.png')}}" alt="Italian Trulli"></a></div>
+                    <div id="gtco-logo"><a href="{{url('/')}}"><img src="{{asset('gambar/logologo.png')}}" alt="Italian Trulli"></a></div>
                 </div>
                 <div class="col-xs-8 text-right menu-1">
                     <ul>
-                        <li class="active"><a href="/">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li class="active"><a href="{{url('/')}}">Home</a></li>
+                        <li><a href="{{route('about')}}">About</a></li>
                         <li class="has-dropdown">
                             <a href="services.html">Services</a>
                             <ul class="dropdown">
@@ -71,15 +71,6 @@
                                 <li><a href="#">eCommerce</a></li>
                                 <li><a href="#">Branding</a></li>
                                 <li><a href="#">API</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-dropdown">
-                            <a href="#">Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a href="#">HTML5</a></li>
-                                <li><a href="#">CSS3</a></li>
-                                <li><a href="#">Sass</a></li>
-                                <li><a href="#">jQuery</a></li>
                             </ul>
                         </li>
                         <li><a href="portfolio.html">Portfolio</a></li>
@@ -97,8 +88,8 @@
                 <div class="col-md-12 col-md-offset-0 text-left">
                     <div class="display-t">
                         <div class="display-tc">
-                            <h1 class="animate-box" data-animate-effect="fadeInUp">JATAYU</h1>
-                            <h2 class="animate-box" data-animate-effect="fadeInUp">Your Best IT Partner </h2>
+                            <h1 class="animate-box" data-animate-effect="fadeInUp"><img style="width: 400px; height: 400px" src="{{asset('gambar/logowhite.png')}}" alt="Italian Trulli" class="center"></h1>
+                            <h2 class="animate-box" data-animate-effect="fadeInUp" style="text-align: center">Your Best IT Partner </h2>
                         </div>
                     </div>
                 </div>
@@ -106,116 +97,7 @@
         </div>
     </header>
 
-    <div id="gtco-features">
-        <div class="gtco-container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                    <h2>Our Culture</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="ti-vector"></i>
-						</span>
-                        <h3>Smart</h3>
-                        <p>We must think twice do once, work smart efficiently. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="ti-tablet"></i>
-						</span>
-                        <h3>Humble</h3>
-                        <p>Cheerful and humble with the others. Caring and take care. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="ti-settings"></i>
-						</span>
-                        <h3>Speed</h3>
-                        <p>Fast response in any situational circumstances, service above all. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="ti-ruler-pencil"></i>
-						</span>
-                        <h3>Passion</h3>
-                        <p>We all passions in our work, passion made perfect. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
-
-    <div id="gtco-products">
-        <div class="gtco-container">
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                    <h2>Products</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                </div>
-            </div>
-            <div class="row animate-box">
-                <div class="owl-carousel owl-carousel-carousel">
-                    <div class="item">
-                        <img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_2.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_3.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                    <div class="item">
-                        <img src="images/img_4.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div id="gtco-subscribe">
-        <div class="gtco-container">
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-                    <h2>Subscribe</h2>
-                    <p>Be the first to know about the new templates.</p>
-                </div>
-            </div>
-            <div class="row animate-box">
-                <div class="col-md-12">
-                    <form class="form-inline">
-                        <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="email" class="sr-only">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Your Email">
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="name" class="sr-only">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Your Name">
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <button type="submit" class="btn btn-default btn-block">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    @yield('welcome')
 
     <footer id="gtco-footer" role="contentinfo">
         <div class="gtco-container">
@@ -224,7 +106,7 @@
                 <div class="col-md-4">
                     <div class="gtco-widget">
                         <h3>About Us</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+                        <p>Jatayu is a company that commited giving solutions to your company through IT services, that increasing productivity</p>
                     </div>
                 </div>
 
@@ -232,9 +114,6 @@
                     <div class="gtco-widget">
                         <h3>Links</h3>
                         <ul class="gtco-footer-links">
-                            <li><a href="#">Knowledge Base</a></li>
-                            <li><a href="#">Career</a></li>
-                            <li><a href="#">Press</a></li>
                             <li><a href="#">Terms of services</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>
@@ -296,7 +175,7 @@
     <script src="{{asset('js/magnific-popup-options.js')}}"></script>
     <!-- Main -->
     <script src="{{asset('js/main.js')}}"></script>
-@yield('welcome')
+
 </body>
 
 </html>

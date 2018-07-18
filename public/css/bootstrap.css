@@ -6254,4 +6254,10 @@ button.close {
   }
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /*# sourceMappingURL=bootstrap.css.map */

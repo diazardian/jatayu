@@ -15,6 +15,8 @@ Route::get('/', [
     'uses'=>'TestController@welcome'
 ]);
 
-Route::get('bagas', function () {
-    return 'string' ;
-});
+Route::get('/about', [
+    'uses'=>'TestController@about',
+    'as' => 'about'
+]);
+
