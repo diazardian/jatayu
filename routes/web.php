@@ -20,7 +20,6 @@ Route::get('/about', [
     'as' => 'about'
 ]);
 
-
 Route::get('bagas', function () {
     return 'string' ;
 });
