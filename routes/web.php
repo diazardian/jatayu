@@ -20,3 +20,10 @@ Route::get('/about', [
     'as' => 'about'
 ]);
 
+
+Route::get('bagas', function () {
+    return 'string' ;
+});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
